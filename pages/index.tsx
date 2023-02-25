@@ -32,7 +32,7 @@ export default function Home() {
         <div>
           <button onClick={handleGetMongoDoc}>Get Mongo Doc</button>
           <button onClick={handleUpdateMongoDoc}>Update Mongo Doc</button>
-          <div>Data: {data}</div>
+          {/* <div>Data: {data}</div> */}
         </div>
       </div>
     </>
